@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-closed">
+          <h3>Portfolio</h3>
+          <ul class="nav-links">
+            <li class="nav-button">Shop</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="nav-open">
+          <div class="clothing">
+            <h2>Clothes</h2>
+            <ul>
+              <li><a href="#">Hats</a></li>
+              <li><a href="#">Suits</a></li>
+              <li><a href="#">Bags</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-images">
+            <img src="./images/hoodie.jpeg" alt="clothes" />
+            <img src="./images/hats.jpeg" alt="clothes" />
+          </div>
+        </div>
+      </nav>
+
+      <img class="cover" src="./images/long-cover.jpg" alt="" />
+      <h1 class="cover-date">31/05/2020</h1>
+    </header>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"
+      integrity="sha256-fltN0o5Y522+g+srNX/a1+VLhane+b+VMGPVlwqR7mo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineLite.min.js"
+      integrity="sha256-dOAYt+bDtcwODMeQ8lYDO5ezeDxYU1KbxhAban7SMVk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"
+      integrity="sha256-y/IiirQ5+JuD/reepUkhNSGoEhL96f9n+cc9AC1YYZg="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <!-- TweenLite helps us animate things in Javascript 
+    CSS plugin helps us animate the css stuff 
+    TimelineLite helps us control multiple animations byusing the timeline -->
+  </body>
+</html>
